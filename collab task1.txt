@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookstore Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bookstore Menu</h1>
+    <div class="container">
+        <div class="column">
+            <h2>Books List</h2>
+            <ul>
+                <li><a href="                                 
+                <li><a href="#">The Great Gatsby</a></li>
+                <li><a href="                               
+                <li><a href="#">The Catcher in the Rye</a></li>
+                <li><a href="                            
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Favorite Books</h2>
+            <ul>
+                <li><a href="#">1984</a></li>
+                <li><a href="                                 
+                <li><a href="#">The Alchemist</a></li>
+                <li><a href="                             
+                <li><a href="#">Harry Potter</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
